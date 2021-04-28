@@ -9,29 +9,42 @@
 </head>
 <body>
 <header>
-    <p>header</p>
+    <p>Hello Friend!</p>
 </header>
 
 <sidebar>
-    <p>sidebar</p>
+    <section class="input">
+        <p>Introduce yourself</p>
+        <p><label for="input-name"><input type="text" id="name" placeholder="What's your name?"></label></p>
+        <p><label for="input-pronoun">What are your pronouns?</label>
+            <select name="pronouns" id="pronouns">
+                <option value="they/them">they/them</option>
+                <option value="she/her">she/her</option>
+                <option value="he/him">he/him</option>
+            </select></p>
+        <p><button id="submit">submit</button></p>
+    </section>
+
 </sidebar>
 
-<main class="tag">
-<section class="tag-top">
-    <h1>HELLO</h1>
-    <h6>my name is</h6>
-</section>
-<section class="tag-middle">
-    <p class="tag-name">Your Name Here</p>
-    <p class="tag-pronoun">Your Pronouns Here</p>
-</section>
-
-<section class="tag-bottom"></section>
+<main>
+    <section class="tag">
+        <div class="tag-top">
+            <h1>HELLO</h1>
+            <h6>my name is</h6>
+        </div>
+        <div class="tag-middle">
+            <p id="tag-name">Your Name Here</p>
+            <p id="tag-pronouns">Your Pronouns Here</p>
+        </div>
+        <div class="tag-bottom">
+        </div>
+    </section>
 </main>
 
 <footer>
-    <p>footer</p>
+    <p>Nice to meet you.</p>
 </footer>
-
+<script type="module" src="./app.js"></script>
 </body>
 </html>
