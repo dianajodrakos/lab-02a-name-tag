@@ -40,7 +40,7 @@ sidebar {
     align-self: center;
 }
 
-.tag {
+#tag {
     background-color: red;
     display: flex;
     flex-direction: column;
@@ -87,6 +87,7 @@ h6 {
     width: 100%;
     font-family: sans-serif;
     font-size: 30px;
+    height: 130px;
 }
 
 header p, footer p, sidebar p {
@@ -96,23 +97,65 @@ p .tag-top {
     margin: auto;
 }
 
-.tag-middle {
+#tag-middle {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
     font-size: 1.5rem;
     background-color: white;
     color: darkblue;
     font-family: 'Brush Script MT', cursive;
     width: 100%;
+    height: 150px;
 }
 
 .tag-bottom {
     width: 100%;
-    height: 60px;
+    height: 20px;
 }
 
 #tag-name {
     font-size: 2rem;
+    margin: 20px;
+    }
+
+#tag-pronouns {
+    margin: 12px;
 }
 
-#tag-pronoun {
-    margin: 15px;
+button {
+    border-radius: 5px;
+
+}
+
+#pink {
+    background-color:lightpink;
+}
+
+#lightgreen {
+    background-color:darkseagreen;
+}
+
+#lightblue {
+    background-color: cornflowerblue;
+}
+
+#red {
+    background-color: red;
+}
+
+#cute {
+    font-family: 'Comic Sans MS';
+}
+
+#type {
+    font-family: monospace;
+}
+
+#fancy {
+    font-family: cursive;
+}
+
+#classic {
+    font-family: 'Brush Script MT';
 }
