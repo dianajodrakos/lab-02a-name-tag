@@ -30,14 +30,12 @@ header {
 }
 
 sidebar {
-    font-size: .7rem;
-    width: 250px;
+    font-size: .9rem;
+    padding: 10px;
+    width: 240px;
     height: 100%;
     background-color:goldenrod;
-}
-
-.input {
-    align-self: center;
+    font-weight: bold;
 }
 
 #tag {
@@ -116,16 +114,11 @@ p .tag-top {
 
 #tag-name {
     font-size: 2rem;
-    margin: 20px;
+    margin: 30px 0 10px 0;
     }
 
 #tag-pronouns {
-    margin: 12px;
-}
-
-button {
-    border-radius: 5px;
-
+    margin: 10px 0 12px 0;
 }
 
 #pink {
@@ -159,3 +152,32 @@ button {
 #classic {
     font-family: 'Brush Script MT';
 }
+
+.input {
+    padding: 5px 10px 20px 10px;
+}
+.font {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: darkblue;  
+    font-weight: bold;
+    padding: 5px 10px 20px 10px;
+}
+
+.color {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;  
+    font-weight: bold;
+    padding: 5px 10px 20px 10px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    border: 0;
+    font-weight: inherit;
+    color: inherit;
+}
+
